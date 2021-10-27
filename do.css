@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.header-p{
+    padding: 0 10px;
+    font-size: .8rem;
+}
+body{
+    background-color: rgb(194, 58, 72);
+}
+body, html{
+    min-height: 100vh;
+    min-width: 100%;
+    min-height: -webkit-fill-available;
+}
+a{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+.back{
+    margin-top: 150px;
+    /* padding-bottom: 80px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+.hero-tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check{
+    width: 20px;
+}
+h1{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 6px;
+    color: white;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+h3, h4{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+.img{
+    margin: auto;
+    background-image: url(img/bag.png);
+    width:190px;
+    height:100px;
+    background-size: cover;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: .65rem;
+    text-align: center;
+    color: white;
+}
+button{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    color:  rgb(174, 43, 67);
+}
+.btn2{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+}
+.tos{
+    visibility: hidden;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+}
+.footer-background{
+    background-color: black;
+    color: white;
+    display: none;
+}
+.footer-container{
+    margin: auto;
+    width: 1200px;
+}
+.footer-coloumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-coloumn1{
+    margin: 0 100px;
+}
+.footer-coloumn2{
+    margin: 0 100px;
+}
+.footer-header{
+    margin-bottom: 15px;
+}
+ul{
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+.border{
+    border-top: blanchedalmond 1px solid;
+    width: 100%;
+}
+.footer-tag{
+    padding: 30px 0 70px;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-height: 650px) {
+   .back{
+       margin-top: 70px;
+   }
+}
+@media screen and (max-height: 750px) {
+    .back{
+        margin-top: 120px;
+    }
+}
+@media screen and (min-width: 601px) {
+    .back{
+        margin-top: 350px;
+  }
+}
+@media screen and (min-width: 1000px) {
+    .full-back{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left{
+        background-image: url(img/full.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 50vw;
+        height: 100vh;
+    }
+    .back{
+        margin-top: 350px;
+        margin: auto;
+   }
+    h1{
+        font-size: 9rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .img{
+        margin: auto;
+        background-image: url(img/bag.png);
+        width:500px;
+        height:300px;
+        background-size: cover;
+    }
+    p{
+        font-family: 'Quicksand', sans-serif;
+        font-size: .65rem;
+        text-align: center;
+        color: white;
+    }
+    .login{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .log-txt{
+        display: none;
+    }
+    .log-txt2{
+        margin-top: 100px;
+        font-size: 1rem;
+    }
+    button{
+        margin-bottom: 20px;
+        width: 285px;
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+        border: 1px solid white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        color:  rgb(174, 43, 67);
+        margin: 0 20px;
+    }
+    .tos{
+        visibility: visible;
+    }
+    .check{
+        width: 50px;
+    }
+    .footer-background{
+        display: block;
+    }
+
+}
